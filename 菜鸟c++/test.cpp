@@ -1,7 +1,6 @@
 #include<iostream>  
 #include <limits>
 #include <ctime>
-
  
 /* 
  * 这个程序演示了有符号整数和无符号整数之间的差别
