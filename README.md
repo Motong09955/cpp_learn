@@ -36,3 +36,5 @@
 [动态内存](./菜鸟c++/dynamic_mem.cpp)
 
 [命名空间](./菜鸟c++/namespace.cpp)
+
+[模板](./菜鸟c++/template.cpp)
