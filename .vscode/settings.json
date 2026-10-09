@@ -1,0 +1,19 @@
+{
+    // 格式化风格走仓库根目录的 .clang-format（clang-format 会自动向上查找）
+    "C_Cpp.clang_format_style": "file",
+    // 万一某个文件不在带 .clang-format 的目录里，退回 LLVM，而不是微软风格
+    "C_Cpp.clang_format_fallbackStyle": "LLVM",
+
+    // 不要指定 C_Cpp.clang_format_path：留空时 C/C++ 扩展用自带的 clang-format
+    // （~/.vscode/extensions/ms-vscode.cpptools-*/LLVM/bin/clang-format），
+    // 跟着扩展一起升级，也不会因为系统里没装 clang-format 而报错。
+
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+
+    "editor.formatOnSave": true
+}
